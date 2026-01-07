@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@theme {
+  --color-light-blue: #E3ECFF;
+  --color-dark-blue: #314165;
+  --color-darkest-blue: #21409A;
+  --color-light-grey: #636363;
+  --color-light-stroke: #D0D6FF;
+  --font-roboto-flex: 'Roboto Flex', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --color-input-grey: #868383;
+  
+  --color-input-bordergrey: #D0D6FF;
+  --color-lightest-blue: #EBF2FF;
+}
